@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+
+# Uploaded print images
+data/uploads/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- extra safety (appended) ---
+*.pyo
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.sqlite3
+*.db-journal
+server.err.log
+server.out.log
+vite.err.log
+vite.out.log
