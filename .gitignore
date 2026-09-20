@@ -39,3 +39,6 @@ server.err.log
 server.out.log
 vite.err.log
 vite.out.log
+# --- keep necessary experiment images (GitHub-ready) ---
+!data/uploads/
+!data/uploads/**
